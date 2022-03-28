@@ -1,4 +1,4 @@
-#Calcular y mostrar en pantalla los numeros primos de forma recursiva
+#Calcular y mostrar en pantalla numeros primos de forma recursiva
 
 def esPrimo(num, n=2):
     if n >= num:
@@ -13,6 +13,7 @@ def numPrimos(cant):
     for i in range(2, cant+1):
         esPrimo(i) 
 
-cant= int(input("Ingrese cantidad de numeros primos a mostrar: "))
+print("Se calcularan n numeros primos hasta el numero que usted ingrese")
+cant= int(input("Ingrese un número: "))
 
 print(numPrimos(cant))
