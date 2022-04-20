@@ -1,4 +1,4 @@
-nce upon a time, on a way through the old wild mountainous west,…
+Once upon a time, on a way through the old wild mountainous west,…
 
 … a man was given directions to go from one point to another. The directions were "NORTH", "SOUTH", "WEST", "EAST". Clearly "NORTH" and "SOUTH" are opposite, "WEST" and "EAST" too.
 
@@ -41,8 +41,8 @@ Write a function dirReduc which will take an array of strings and returns an arr
     *The Rust version takes a slice of enum Direction {North, East, West, South}.
 
 See more examples in "Sample Tests:"
-Notes
+Notes:
 
-    *Not all paths can be made simpler. The path ["NORTH", "WEST", "SOUTH", "EAST"] is not reducible. "NORTH" and "WEST", "WEST" and "SOUTH", "SOUTH" and "EAST" are not directly opposite of each other and can't become such. Hence the result path is itself : ["NORTH", "WEST", "SOUTH", "EAST"].
-    *if you want to translate, please ask before translating.
+    * Not all paths can be made simpler. The path ["NORTH", "WEST", "SOUTH", "EAST"] is not reducible. "NORTH" and "WEST", "WEST" and "SOUTH", "SOUTH" and "EAST" are not directly opposite of each other and can't become such. Hence the result path is itself : ["NORTH", "WEST", "SOUTH", "EAST"].
+    * if you want to translate, please ask before translating.
 
