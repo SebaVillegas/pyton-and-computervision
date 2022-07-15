@@ -1,3 +1,7 @@
+# Prácticas de Python
+
+Aquí también subo los proyectos/desafios que encuentro interesantes y que resolví usando python
+
 # Visión por Computadora
 
 Este repositorio contiene los proyectos realizados durante el curso "Visión por computadora" (UTN, FRC)
